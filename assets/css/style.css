@@ -422,6 +422,7 @@ section {
   .contact-info iframe{
     flex: 1 100%;
   }
+}  
 
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
@@ -481,9 +482,8 @@ section {
   .contact-info > * {
     flex: 0 100%;
   }
-
-  .contact-form {
-    order: 3;
-  }
 }
 
+.contact-form {
+  order: 3;
+}
